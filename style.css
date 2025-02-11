@@ -98,6 +98,10 @@ body{
                         height: 52px;
                         font-size: 18px;
                         background-color: #F57520; 
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius:  15px;
                             
     
                     }
@@ -117,18 +121,25 @@ body{
                     background-color: #101010;
                     height: 275px;
                     display: flex;
-                    justify-content: end;
-                    align-items: center;
+                    justify-content: center;
+                    align-items: start;
+                    flex-direction: column;
+                    border-radius:  0px 15px 15px 0px;
+                    
                     .one{
                         color: #ffffff;
                         font-size: 24px;
                         margin-bottom: 20px;
+                        margin-left: 270px;
+                        
+                        
                     }
                     a{
                         color: #F57520;
                         text-align: center;
                         max-width: 180px;
-                        font-size: 16px;  
+                        font-size: 16px;
+                        margin-left: 270px;  
                     }
                 }
                 .block_two{
@@ -183,17 +194,43 @@ body{
             .center_w{
                 width: 80%;
                 height: 75%;
+
                 .p_1{
                     p{
                         color: black;
                         font-size: 64px;
+                        margin-bottom: 50px;
                     }
                 }
                 
                 .welik_one{
                     width: 400px;
-                    height: 443px;
                     background-color: #ffffff;
+                    position: relative;
+                    .item{
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+                    .flag{
+                        position: absolute;
+                        
+                    }
+                    .p_one{
+                        position: absolute;
+                        color: #F57520;
+                        right: 9px;
+                        top: 9px;
+                    }
+                    .words{
+                        margin-left: 15px;
+                    }
+                    .cena{
+                        color: #2E2E2E;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                    }
+
+                    
                     
                 }
                 
