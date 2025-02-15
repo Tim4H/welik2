@@ -194,19 +194,29 @@ body{
             .center_w{
                 width: 80%;
                 height: 75%;
-
-                .p_1{
-                    p{
-                        color: black;
-                        font-size: 64px;
-                        margin-bottom: 50px;
-                    }
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+             
+                div{
+                    margin-left: 50px;
                 }
+
+                    
+                
                 
                 .welik_one{
                     width: 400px;
                     background-color: #ffffff;
                     position: relative;
+                    .New{
+                        color: black;
+                        font-size: 64px;
+                        background-color: #F8F8F8;
+                        
+                    
+                    }
                     .item{
                         margin-top: 25px;
                         margin-left: 15px;
@@ -233,7 +243,112 @@ body{
                     
                     
                 }
+                .welik_two{
+                    width: 400px;
+                    background-color: #ffffff;
+                    position: relative;
+                    .item{
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+                    .flag{
+                        position: absolute;
+                        
+                    }
+                    .p_two{
+                        position: absolute;
+                        color: #F57520;
+                        right: 9px;
+                        top: 9px;
+                    }
+                    .words{
+                        margin-left: 15px;
+                    }
+                    .cena{
+                        color: #2E2E2E;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                    }
+
+                    
+                    
+                }
+                .welik_three{
+                    width: 400px;
+                    background-color: #ffffff;
+                    position: relative;
+                    .item{
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+                    .flag{
+                        position: absolute;
+                        
+                    }
+                    .p_three{
+                        position: absolute;
+                        color: #F57520;
+                        right: 9px;
+                        top: 9px;
+                    }
+                    .words{
+                        margin-left: 15px;
+                    }
+                    .cena{
+                        color: #2E2E2E;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                    }
+
+                    
+                    
+                }
                 
+            }
+        }
+        .sec_dives{
+            height:  1230px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .cent_dives{
+                width: 80%;
+                height: 60%;
+                p{
+                    color: #131313;
+                    font-size: 68px; 
+                    margin-bottom:  80px;
+                }
+                .one_d1{
+                    width: 1280px;
+                    height: 300px;
+                    background-image: url('./image/2.png');
+                }
+                .two_d2{
+                    width: 400px;
+                    height: 456px;
+                    background-image: url('./image/2.0.png');
+                }
+                .three_d3{
+                    width: 400px;
+                    height: 190px;
+                    background-image: url('./image/3.png');
+                }
+                .four_d4{
+                    width: 400px;
+                    height: 252px;
+                    background-image: url('./image/4.png');
+                }
+                .five_d5{
+                    width: 448px;
+                    height: 203px;
+                    background-image: url('./image/5.png');
+                }
+                .sixe_d6{
+                    width: 449px;
+                    height: 203px;
+                    background-image: url('./image/6.png');
+                }
             }
         }
     }
